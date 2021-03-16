@@ -1,0 +1,22 @@
+
+<div class="container">
+
+    <table class="table-hover table bg-light">
+        <thead>
+            <td>productID</td>
+            <td>salePrice</td>
+            <td>supplierID</td>
+            <td>stockQuantity</td>
+            <td>wholesaleCost</td>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of entries">
+                <td>{{item.productID}}</td>
+                <td>{{item.salePrice}}</td>
+                <td>{{item.supplierID}}</td>
+                <td>{{item.stockQuantity}}</td>
+                <td>{{item.wholesaleCost}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
