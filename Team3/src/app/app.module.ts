@@ -2,7 +2,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {RouterModule} from '@angular/router'
-import { CookieService } from 'ngx-cookie-service';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PanelComponent } from './panel/panel.component';
@@ -15,6 +15,7 @@ import { ReccomendedComponent } from './reccomended/reccomended.component';
 import { FormsModule } from '@angular/forms';
 import { Quote } from '@angular/compiler';
 import { AuthService } from './auth.service';
+import { CookieService } from 'ngx-cookie';
 
 @NgModule({
   declarations: [
